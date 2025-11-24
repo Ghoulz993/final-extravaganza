@@ -27,11 +27,19 @@ html {
     font-weight:600;
 }
 
-.wide-nav {
+.homepage-nav {
     display:flex;
     list-style-type:none;
     justify-content: space-evenly;
     padding:0;
+    height:800px;
+}
+
+.homepage-nav-link {
+    background-color:rgb(235, 153, 125);
+    padding:10px 15px;
+    color:rgb(148, 26, 148);
+    text-decoration:none;
 }
 
 .page-title {
@@ -42,4 +50,11 @@ html {
 .specific-title {
     display:flex;
     justify-content:center;
+}
+
+.global-nav {
+    display:flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+    padding:0;
 }
