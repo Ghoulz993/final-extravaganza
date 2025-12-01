@@ -68,21 +68,23 @@ html {
 }
 
 .footer {
-    background-color:white;
+    background-color:rgb(110, 187, 231);
 }
 
 .footer-nav {
     display:flex;
-    flex-direction:column;
+    flex-flow:column wrap;
     list-style-type:none;
     justify-content: space-evenly;
     padding:20px;
+    gap:10px;
 }
 
 .footer-link {
     padding:10px 15px;
     color:rgb(0, 0, 0);
     text-decoration:none;
+    flex:1;
 }
 
 .about-body {
