@@ -3,6 +3,15 @@ html {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin:0px;
+}
+
+p {
+    font-size:20px;
+    padding:10px;
+}
+
 .site-header {
     display:flex;
     justify-content:space-between;
@@ -19,6 +28,7 @@ html {
     display:flex;
     list-style-type:none;
     margin:0px;
+    margin-top:5px;
 }
 
 .right-nav-link {
@@ -28,6 +38,10 @@ html {
     text-decoration:none;
     font-size:15px;
     font-weight:600;
+}
+
+.right-nav-link:hover {
+    background-color:rgb(235, 153, 125);
 }
 
 .homepage-nav {
@@ -46,18 +60,10 @@ html {
     text-decoration:none;
 }
 
-.global1 {
-    align-items:center;
-}
-
-.page-title {
-    display:flex;
-    justify-content:center;
-}
-
 .specific-title {
     display:flex;
     justify-content:center;
+    font-style:italic;
 }
 
 .global-nav {
@@ -78,6 +84,8 @@ html {
     justify-content: space-evenly;
     padding:20px;
     gap:10px;
+    margin-top:460px;
+    margin-bottom:0px;
 }
 
 .footer-link {
@@ -86,10 +94,35 @@ html {
     text-decoration:none;
     flex:1;
 }
+.footer-link:hover {
+    background-color:rgb(235, 153, 125);
+}
 
 .about-body {
     border:2px solid rgb(133, 128, 128);
     background-color:pink;
     margin-top:50px;
     padding:15px;
+}
+
+.work-cited-body {
+    border:2px solid rgb(133, 128, 128);
+    background-color:pink;
+    margin-top:50px;
+    padding:15px;
+}
+
+.work-cited-list {
+    list-style:none;
+}
+.work-cited-link {
+    text-decoration:none;
+}
+
+.local-nav {
+    list-style:none;
+}
+
+.local-nav-link {
+    text-decoration:none;
 }
